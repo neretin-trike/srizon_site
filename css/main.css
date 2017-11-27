@@ -8,7 +8,8 @@ body{
     color: #13112b;
     font-size: 1.4rem;
 
-    /* display: flex; */
+    display: flex;
+    flex-direction: column;
 }
 
 figure{
@@ -28,7 +29,11 @@ input{
 }
 
 *{
-    /* border: 0.1rem solid black; */
+    border: 0.1rem solid black;
+}
+
+.container{
+    max-width: 117rem;
 }
 
 .overlay{
