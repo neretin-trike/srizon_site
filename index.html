@@ -14,27 +14,31 @@
 <body>
     <header>
         <div class="logo">
-            <img src="images/logo.png" alt="">
-            SRIZON
+            <img src="images/logo.png" alt="">SRIZON
         </div>
         <nav class="menu">
-            <div class="item">home</div>
-            <div class="item">services</div>
-            <div class="item">portfolio</div>
-            <div class="item">features</div>
-            <div class="item">our team</div>
-            <div class="item">our blog</div>
+            <div class="item selected"><a href="#">home</a></div>
+            <div class="item"><a href="#">services</a></div>
+            <div class="item"><a href="#">portfolio</a></div>
+            <div class="item"><a href="#">features</a></div>
+            <div class="item"><a href="#">our team</a></div>
+            <div class="item"><a href="#">our blog</a></div>
         </nav>
     </header>
     <main>
         <section id="slider">
+            <div class="overlay"></div>
             <div class="container">
-                <div class="overlay"></div>
                 <h1>We're SriZon, A Digital Agency in New York.</h1>
                 <p>Digital Agency Webtemplate</p>
                 <button class="btn-basic">Get started</button>
                 <div class="mouse-hint"></div>
             </div>
+            <nav>
+                <div class="item selected"><a href="#"></a></div>
+                <div class="item"><a href="#"></a></div>
+                <div class="item"><a href="#"></a></div>
+            </nav>
         </section>
         <section id="services">
             <div class="container">
@@ -141,13 +145,234 @@
                 </div>
             </div>
         </section>
-        <section id="video">Watch Video</section>
-        <section id="team">MEET THE TEAM</section>
-        <section id="clients">WHAT CLIENTS SAY</section>
-        <section id="our-blog">Our Blog</section>
-        <section id="banner">Go Ahead and Find Out How We can help You!</section>
+        <section id="video">
+            <div class="overlay"></div>
+            <div class="container">
+                <button class="btn-play"></button>
+                <h2>Watch Video</h2>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy</p>
+            </div> 
+        <section id="skills">
+            <div class="container">
+                <div class="row">
+                    <h2>Our Skills</h2>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of  typesetting industry.</p>
+                </div>
+                <div class="row skill-chart">
+                    <div class="item">
+                        <p>HTML/CSS</p>
+                        <div class="bar">
+                            <div class="progress web"></div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <p>PHOTOSHOP</p>
+                        <div class="bar">
+                            <div class="progress photoshop"></div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <p>PHOTOGRAPHY</p>
+                        <div class="bar">
+                            <div class="progress photography"></div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <p>ILLUSTRATION</p>
+                        <div class="bar">
+                            <div class="progress illustration"></div>
+                        </div>
+                    </div>
+                </div>
+            </div> 
+        </section>
+        <section id="team">
+            <div class="container">
+                <div class="row">
+                    <h2>MEET THE TEAM</h2>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, of type and scrambled it to book.</p>
+                </div>
+                <div class="row">
+                    <figure class="member">
+                        <div class="photo"><img src="images/team/member_1.jpg" alt=""></div>
+                        <figcaption>
+                            <h3>Merry Jones</h3>
+                            <p>Developer</p>
+                            <div class="social-media">
+                                <a class="twitter" href="#"></a>
+                                <a class="linkedin" href="#"></a>
+                                <a class="instagram" href="#"></a>
+                                <a class="dreeeble" href="#"></a>
+                            </div>
+                        </figcaption>
+                    </figure>
+                    <figure class="member">
+                        <div class="photo"><img src="images/team/member_2.jpg" alt=""></div>
+                        <figcaption>
+                            <h3>David Miller</h3>
+                            <p>Designer</p>
+                            <div class="social-media">
+                                <a class="twitter" href="#"></a>
+                                <a class="linkedin" href="#"></a>
+                                <a class="instagram" href="#"></a>
+                                <a class="dreeeble" href="#"></a>
+                            </div>
+                        </figcaption>
+                    </figure>
+                    <figure class="member">
+                        <div class="photo"><img src="images/team/member_3.jpg" alt=""></div>
+                        <figcaption>
+                            <h3>Demi Jackson</h3>
+                            <p>Coder</p>
+                            <div class="social-media">
+                                <a class="twitter" href="#"></a>
+                                <a class="linkedin" href="#"></a>
+                                <a class="instagram" href="#"></a>
+                                <a class="dreeeble" href="#"></a>
+                            </div>
+                        </figcaption>
+                    </figure>
+                </div>
+                <div class="row">
+                    <button class="btn-left"></button>
+                    <button class="btn-right"></button>
+                </div>
+            </div> 
+        </section>
+        <section id="clients">
+            <div class="overlay"></div>
+            <div class="container">
+                <div class="row">
+                    <h2>WHAT CLIENTS SAY</h2>
+                    <figure class="client">
+                        <div class="photo"><img src="images/team/member_2.jpg" alt=""></div>
+                        <figcaption>
+                            <blockquote>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, of type and scrambled it to book.</blockquote>
+                            <p><strong>Michael</strong>, CEO, Company</p>
+                        </figcaption>
+                    </figure>
+                </div>
+                <div class="row">
+                    <button class="btn-left"></button>
+                    <button class="btn-right"></button>
+                </div>
+            </div>
+        </section>
+        <section id="our-blog">
+            <div class="container">
+                <div class="row">
+                    <h2>Our Blog</h2>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, of type and scrambled it to book.</p>
+                </div>
+                <div class="row">
+                    <article class="post">
+                        <section class="content">
+                            <figure><img src="images/blog/post_1.jpg" alt=""></figure>
+                            <h3>This is video post example outstanding</h3>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                        </section>
+                        <footer>
+                            <time>25 September</time>
+                            <span class="like">15</span>
+                            <span class="comment">60</span>
+                        </footer>
+                    </article>
+                    <article class="post">
+                        <section class="content">
+                            <figure><img src="images/blog/post_2.jpg" alt=""></figure>
+                            <h3>Awesome PSD with tons of Features</h3>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                        </section>
+                        <footer>
+                            <time>25 September</time>
+                            <span class="like">15</span>
+                            <span class="comment">60</span>
+                        </footer>
+                    </article>
+                    <article class="post">
+                        <section class="content">
+                            <figure><img src="images/blog/post_3.jpg" alt=""></figure>
+                            <h3>Gallery post. fully responsive</h3>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                        </section>
+                        <footer>
+                            <time>25 September</time>
+                            <span class="like">15</span>
+                            <span class="comment">60</span>
+                        </footer>
+                    </article>
+                    <article class="post">
+                        <section class="content">
+                            <figure><img src="images/blog/post_4.jpg" alt=""></figure>
+                            <h3>Designing Your First Website</h3>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                        </section>
+                        <footer>
+                            <time>25 September</time>
+                            <span class="like">15</span>
+                            <span class="comment">60</span>
+                        </footer>
+                    </article>
+                </div>
+                <div class="row">
+                    <button class="btn-outline">Visit blog</button>
+                </div>                        
+            </div>
+        </section>
+        <section id="banner">
+            <div class="overlay"></div>
+            <div class="container">
+                <h2>Go Ahead and Find Out How We can help You!</h2>
+                <button class="btn-basic">Get in touch</button>
+            </div>
+        </section>
     </main>
     <footer>
+        <div class="row">
+            <div class="item description">
+                <div class="logo">
+                    <img src="images/blue_logo.png" alt="">SRIZON
+                </div>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry Lorem Ipsum has been the industry's. <br> Lorem Ipsum is simply dummy text of the printing and typesetting industry Lorem Ipsum has been the industry's</p>
+            </div>
+            <div class="item contact">
+                <h3>Contact</h3>
+                <ul>
+                    <li class="phone">(01 2) 5985 1548</li>
+                    <li class="mail">info@srizon.com</li>
+                    <li class="location">458, Newyork, USA 1518</li>
+                    <li class="fax">(01 2) 6987 2154</li>
+                </ul>
+            </div>
+            <div class="item recent-projects">
+                <h3>Recent projects</h3>
+                <article class="posts">
+                    <div class="preview"><img src="images/footer/preview_1.jpg" alt=""></div>
+                    <div class="preview"><img src="images/footer/preview_2.jpg" alt=""></div>
+                    <div class="preview"><img src="images/footer/preview_3.jpg" alt=""></div>
+                    <div class="preview"><img src="images/footer/preview_4.jpg" alt=""></div>
+                    <div class="preview"><img src="images/footer/preview_5.jpg" alt=""></div>
+                    <div class="preview"><img src="images/footer/preview_6.jpg" alt=""></div>
+                </article>
+            </div>
+            <div class="item newsletter">
+                <h3>Newsletter</h3>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry Lorem Ipsum has been the industry's. Lorem Ipsum is simply typesetting industry</p>
+                <form action="">
+                    <input type="text" placeholder="Email address">
+                    <input type="submit" value="submit">
+                </form>
+            </div>
+        </div>
+        <div class="row copyright">
+            <div class="social-media">
+                <a class="facebook" href="#"></a>
+                <a class="twitter" href="#"></a>
+                <a class="dreeeble" href="#"></a>
+                <a class="instagram" href="#"></a>
+            </div>
+            <small>Srizon by Respotheme. All Right Reserved 2017</small>
+        </div>
     </footer>
 </body>
 </html>
