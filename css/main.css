@@ -149,10 +149,12 @@ main{
     background-image: url(../images/slider_background.jpg);    
     background-size: cover;
     background-repeat: no-repeat;
+    height: 100%;
 
     padding-top: 30rem;
     padding-bottom: 9.4rem;
-    height: 100%;
+
+    text-align: center;
 }
 
 #slider nav{
@@ -164,6 +166,17 @@ main{
     left: 0; right: 0; top: 0; bottom: 0; */
     height: 50%;
     width: 2rem;
+}
+
+#slider h1{
+    color: white;
+    font-weight: 600;
+    font-size: 5.6rem;
+    letter-spacing: 0.28rem;
+    text-transform: uppercase;
+
+    width: 75%;
+    margin: 0 auto;
 }
 
 /*--------------------------
