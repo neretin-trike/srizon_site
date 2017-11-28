@@ -414,8 +414,51 @@ main{
 }    
 
 /*--------------------------
+    VIDEO
+---------------------------*/
+#video{
+    position: relative;
+
+    background-image: url(../images/video_background.jpg);    
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+
+    padding: 14.0rem;
+
+}
+
+#video button.btn-play{
+    min-width: 0;
+    padding: 0;
+
+    border-radius: 4.0rem;
+
+    width: 8.0rem;
+    height: 8.0rem;
+
+    border: 0.1rem solid #f16192;
+    background-color: transparent;
+    background-image:url(../images/play.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}    
+
+#video h2{
+    margin-top: 4.5rem;
+    color: white;
+}
+
+#video p{
+    width: 50%;
+    color: white;
+    margin: 0 auto;
+}    
+
+/*--------------------------
     SKILLS
 ---------------------------*/
+
 #skills .item{
     width: 50%;
     align-self: flex-end;
