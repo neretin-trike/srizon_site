@@ -43,6 +43,12 @@ button{
     letter-spacing: 0.06rem;
 }
 
+.btn-outline{
+    border: 0.1rem solid #f16192;
+    background-color: transparent;
+    color: #f16192;
+}
+
 input{
     outline: none;
 }
@@ -82,6 +88,28 @@ a{
     color: white;
 }
 
+h2{
+    text-align: center;
+    margin-top: 0rem;
+    margin-bottom: 3.6rem;
+
+    font-size: 3.6rem;
+    font-weight: 300;
+    text-transform: uppercase;
+    color:#423b88;
+    letter-spacing: 0.18rem;
+}
+p{
+    text-align: center;
+    margin:0 auto;
+    margin-bottom: 7.0rem;
+
+    color: #949597;
+    letter-spacing: 0.06rem;
+    line-height: 2.4rem;
+
+    max-width: 75%;
+}
 
 /*--------------------------
     HEADER
@@ -184,10 +212,13 @@ main{
 }
 
 #slider p{
+    color: white;
+    
     font-weight: 300;
     font-size: 2.4rem;
     letter-spacing: 0.0288rem;
 
+    margin-top: 4.4rem;
     margin-bottom: 7.4rem;
 }    
 
@@ -230,23 +261,56 @@ main{
 #slider nav .item.selected{
     background-color: #69649b;
 }    
-    
 
 /*--------------------------
     SERVICES
 ---------------------------*/
+
+#services{
+    background-color: #f4f5f7;
+
+    padding: 11.6rem 0;
+}
 
 #services .item{
     width: 33.333%;
     text-align: center;
 }
 
+#services .item .icon{
+    height: 7.0rem;
+    position: relative;
+}    
+
+#services .item .icon img{
+    position: absolute;
+    right: 0; left: 0; top: 0;bottom: 0;
+    margin: auto;
+}    
+
+#services .item h3{
+    text-transform: uppercase;
+    color: #423b88;
+    font-weight: 600;
+    font-size: 1.6rem;
+}    
+
+#services .item p{
+    max-width: 90%;
+    margin-bottom: 0;
+}    
+
 /*--------------------------
     PORTFOLIO
 ---------------------------*/
 
+#portfolio{
+    padding: 11.6rem 0;
+}
+
 #portfolio .gallery{
     display: flex;
+    margin-bottom: 7.6rem;
 }
 
 #portfolio .general-item{
@@ -274,6 +338,10 @@ main{
 /*--------------------------
     FEATURES
 ---------------------------*/
+
+#features{
+    background-color: #f4f5f7;
+}
 
 #features .card{
     width: 50%;
