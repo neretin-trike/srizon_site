@@ -13,7 +13,7 @@ body{
     /* align-items: center; */
 
     position: relative;
-    max-width: 177.4rem;
+    max-width: 192.0rem;
     margin: 0 auto;
 }
 
@@ -29,6 +29,18 @@ button{
     cursor: pointer;
 
     margin: 0 auto;
+
+    min-width: 18.0rem;
+    border-radius: 3.5rem;
+    background-color: #f16192;
+    padding: 1.8rem 4.4rem;
+
+    color: white;
+    
+    text-transform: uppercase;
+    font-size: 1.4rem;
+    font-weight: 600;
+    letter-spacing: 0.06rem;
 }
 
 input{
@@ -65,7 +77,7 @@ input{
     opacity: 0.9;
 }
 
-a:link{
+a{
     text-decoration: none;
     color: white;
 }
@@ -76,11 +88,13 @@ a:link{
 ---------------------------*/
 
 header{
+    max-width: 177.4rem;
+    margin: 0 auto;
+
     position: relative;
-    top: 0;
     z-index: 999;
+    
     display: flex;
-    align-self: stretch;
 
     padding: 2.5rem;
 
@@ -144,7 +158,6 @@ main{
 
 #slider{
     position: relative;
-    display: flex;
 
     background-image: url(../images/slider_background.jpg);    
     background-size: cover;
@@ -155,29 +168,69 @@ main{
     padding-bottom: 9.4rem;
 
     text-align: center;
-}
 
-#slider nav{
-    align-self: center;
-
-    position: absolute;
-    right: 0;
-    /* margin: auto;
-    left: 0; right: 0; top: 0; bottom: 0; */
-    height: 50%;
-    width: 2rem;
+    color: white;
 }
 
 #slider h1{
-    color: white;
     font-weight: 600;
     font-size: 5.6rem;
     letter-spacing: 0.28rem;
     text-transform: uppercase;
+    line-height: 7.2rem;
 
-    width: 75%;
+    width: 60%;
     margin: 0 auto;
 }
+
+#slider p{
+    font-weight: 300;
+    font-size: 2.4rem;
+    letter-spacing: 0.0288rem;
+
+    margin-bottom: 7.4rem;
+}    
+
+#slider button{
+    margin-bottom: 24.8rem;
+}    
+
+#slider .mouse-hint{
+    margin: 0 auto;
+
+    width: 2.6rem;
+    height: 4.2rem;
+    background-image: url(../images/scroll.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#slider .container{
+    max-width: 177.4rem;
+}    
+
+#slider nav{
+    position: absolute;
+    top:0; bottom: 0; right: 2.5rem;
+    margin: auto;
+    
+    height: 50%;
+    width: 2rem;
+}
+
+#slider nav .item{
+    margin: 1.0rem 0;
+
+    border-radius: 3.5rem;
+    width: 1.5rem;
+    height: 1.5rem;
+    border: 0.1rem solid #69649b;
+}
+
+#slider nav .item.selected{
+    background-color: #69649b;
+}    
+    
 
 /*--------------------------
     SERVICES
