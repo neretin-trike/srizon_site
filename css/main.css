@@ -8,8 +8,12 @@ body{
     color: #13112b;
     font-size: 1.4rem;
 
-    display: flex;
-    flex-direction: column;
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* align-items: center; */
+
+    max-width: 177.4rem;
+    margin: 0 auto;
 }
 
 figure{
@@ -22,6 +26,8 @@ button{
     border: none;
     background: none;
     cursor: pointer;
+
+    margin: 0 auto;
 }
 
 input{
@@ -29,11 +35,22 @@ input{
 }
 
 *{
-    border: 0.1rem solid black;
+    box-sizing: border-box;
+    border: 0.1rem solid #a2a1bf;
 }
 
 .container{
-    max-width: 117rem;
+    max-width: 117.0rem;
+    margin: 0 auto;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.column-direct{
+    flex-direction: column;
 }
 
 .overlay{
@@ -55,8 +72,181 @@ input{
     height: inherit;
 }
 
+/*--------------------------
+    HEADER
+---------------------------*/
+header{
+    display: flex;
+    align-self: stretch;
 
+}
+
+header .logo{
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+}
+
+header .menu{
+    display: flex;
+    align-items: center;
+}
 
 /*--------------------------
-    LEFT SIDE BAR
+    SLIDER
 ---------------------------*/
+
+#slider{
+    position: relative;
+    display: flex;
+}
+
+#slider nav{
+    align-self: center;
+
+    position: absolute;
+    right: 0;
+    /* margin: auto;
+    left: 0; right: 0; top: 0; bottom: 0; */
+    height: 50%;
+    width: 2rem;
+}
+
+/*--------------------------
+    SERVICES
+---------------------------*/
+
+#services .item{
+    width: 33.333%;
+    text-align: center;
+}
+
+/*--------------------------
+    PORTFOLIO
+---------------------------*/
+
+#portfolio .gallery{
+    display: flex;
+}
+
+#portfolio .general-item{
+    overflow: hidden;
+    width: 40%;
+}    
+
+#portfolio .secondary-items{
+    display: flex;
+    flex-wrap: wrap;
+
+    width: 60%;
+}
+
+#portfolio .secondary-items .item{
+    overflow: hidden;
+    width: 33.333%;
+}    
+
+#portfolio .general-item img,    
+#portfolio .secondary-items .item img{
+    height: 100%;
+}    
+
+/*--------------------------
+    FEATURES
+---------------------------*/
+
+#features .card{
+    width: 50%;
+}
+
+/*--------------------------
+    SKILLS
+---------------------------*/
+#skills .item{
+    width: 50%;
+    align-self: flex-end;
+}
+
+/*--------------------------
+    TEAM
+---------------------------*/
+
+#team .member{
+    text-align: center;
+    width: 33.333%;
+}
+
+/*--------------------------
+    CLIENTS
+---------------------------*/
+
+#clients{
+    text-align: center;
+}
+
+#clients .client{
+    width: 40%;
+    align-self: center;
+}
+
+/*--------------------------
+    BLOG
+---------------------------*/
+
+#our-blog .post{
+    width: 25%;
+}
+
+#our-blog .post figure{
+    overflow: hidden;
+}
+
+#our-blog .post footer{
+    display: flex;
+}    
+
+#our-blog .post footer time{
+    margin-right: auto;
+}    
+    
+/*--------------------------
+    BANNER
+---------------------------*/
+#banner h2{
+    margin-right: auto;
+}
+
+/*--------------------------
+    FOOTER
+---------------------------*/
+
+footer .logo{
+    display: flex;
+    align-items: center;
+}
+
+footer .item{
+    width: 25%;
+}
+
+footer .recent-projects .posts{
+    display: flex;
+    flex-wrap: wrap;
+}
+    
+footer .recent-projects .preview{
+    width: 33.333%;
+    overflow: hidden;
+}    
+
+footer .recent-projects .preview img{
+    height: 100%;
+}    
+
+footer .copyright{
+    display: flex;
+}    
+
+footer .copyright .social-media{
+    margin-right: auto;
+}    
