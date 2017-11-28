@@ -341,11 +341,77 @@ main{
 
 #features{
     background-color: #f4f5f7;
+    padding: 11.6rem 0;
 }
 
 #features .card{
-    width: 50%;
+    background-color: white;
+    width: 47.428%;
+    margin: 1.5rem;
+
+    padding-top: 6.0rem;
+    padding-left: 2.5rem;
+    padding-bottom: 4.0rem;
+
+    display: flex;
+
+    border-radius: 0.5rem;
+    box-shadow: 0px 6px 40px 0px rgba(0, 0, 0, 0.1); 
 }
+
+#features .card .icon{
+    border: 0.2rem solid #423b88;
+    border-radius: 3.4rem;
+    
+    width: 6.8rem;
+    height: 6.8rem;
+    margin-right: 2.4rem;
+
+    background-position: center;
+    background-repeat: no-repeat;
+}    
+
+#features .card .icon.responsive{
+    background-image: url(../images/features/responsive.png);
+}    
+
+#features .card .icon.ideas{
+    background-image: url(../images/features/ideas.png);
+}    
+
+#features .card .icon.animation{
+    background-image: url(../images/features/animation.png);
+}    
+
+#features .card .icon.easy{
+    background-image: url(../images/features/easy.png);
+}    
+
+#features .card .icon.multi-purpose{
+    background-image: url(../images/features/multi_purpose.png);
+}    
+
+#features .card .icon.support{
+    background-image: url(../images/features/support.png);
+}  
+#features .card .description{
+    max-width: 39.0rem;
+}    
+
+#features .card .description h3{
+    margin: 0;
+    color: #423b88;
+    font-size: 2.4rem;
+    font-weight: 400;
+
+    margin-bottom: 2.4rem;
+}    
+
+#features .card .description p{
+    margin: 0;
+    max-width: 100%;
+    text-align: left;
+}    
 
 /*--------------------------
     SKILLS
