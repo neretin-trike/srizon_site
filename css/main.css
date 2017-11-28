@@ -458,15 +458,113 @@ main{
 /*--------------------------
     SKILLS
 ---------------------------*/
+#skills{
+    position: relative;
+    
+    background-image: url(../images/man_red.png);    
+    background-size: 65%;
+    background-repeat: no-repeat;
+    background-position: -35% 100%;
 
-#skills .item{
-    width: 50%;
-    align-self: flex-end;
+    padding: 16.2rem 0;
 }
+
+#skills .container{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}    
+
+#skills .row{
+    /* background-color: rgba(255, 255, 255, 0.75); */
+    width: 50%;
+}
+
+#skills h2,
+#skills p{
+    text-align: left;
+}
+
+#skills p{
+    margin: 0;
+    max-width: 90%;
+    margin-bottom: 0.4rem;
+}    
+
+#skills .skill-chart .item{
+    margin-top: 3.6rem;
+}
+
+#skills .skill-chart .item p{
+    margin-bottom:1.0rem;
+    font-weight: 600;
+}    
+
+#skills .skill-chart .item .bar{
+    width: 100%;
+    height: 0.5rem;
+    background-color: #e4e5e6;
+
+}
+    
+#skills .skill-chart .item .progress{
+    height: 0.5rem;
+    background-color: #423b88;
+    position: relative;
+}    
+
+#skills .skill-chart .item .progress.web,
+#skills .skill-chart .item .progress.photoshop,
+#skills .skill-chart .item .progress.illustration{    
+    width: 80%;
+}    
+
+#skills .skill-chart .item .progress.photography{
+    width: 70%;
+}    
+
+#skills .skill-chart .item .progress.web:after,
+#skills .skill-chart .item .progress.photoshop:after,
+#skills .skill-chart .item .progress.illustration:after{    
+    content: "80%";
+    text-align: center;
+    color: white;
+    background-color: #f16192;
+
+    display: block;
+    position: absolute;
+
+    padding: 0.7rem 1.7rem;
+    border-radius: 3.5rem;
+
+    top:-4.0rem;
+    right: 0;
+    box-shadow: 0px 4px 5px 0px rgba(241, 97, 146, 0.4); 
+}
+
+#skills .skill-chart .item .progress.photography:after{
+    content: "70%";
+    text-align: center;
+    color: white;
+    background-color: #f16192;
+
+    display: block;
+    position: absolute;
+
+    padding: 0.7rem 1.7rem;
+    border-radius: 3.5rem;
+
+    top:-4.0rem;
+    right: 0;
+    box-shadow: 0px 4px 5px 0px rgba(241, 97, 146, 0.4); 
+}    
 
 /*--------------------------
     TEAM
 ---------------------------*/
+#team{
+    background-color: #f4f5f7;
+}
 
 #team .member{
     text-align: center;
