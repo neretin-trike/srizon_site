@@ -805,7 +805,17 @@ main{
 
 #banner h2{
     margin-right: auto;
+    margin-bottom: 0;
+    
+    color: white;
+    font-size: 2.4rem;
+    font-weight: 300;
 }
+
+#banner h2,   
+#banner button{
+    align-self: center;
+}    
 
 /*--------------------------
     FOOTER
