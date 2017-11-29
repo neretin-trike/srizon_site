@@ -627,6 +627,7 @@ main{
     background-position: -12.0rem center;
 }    
 
+#clients button,
 #team button{
     margin-top:7.4rem;
     min-width: 0;
@@ -640,11 +641,13 @@ main{
     background-repeat: no-repeat;
 }
     
+#clients button.btn-left,
 #team button.btn-left{
     margin-right: 0.7rem;    
     background-image: url(../images/team/arrow_left.png);
 }
 
+#clients button.btn-right,
 #team button.btn-right{
     margin-left: 0.7rem;    
     background-image: url(../images/team/arrow_right.png);
@@ -656,12 +659,57 @@ main{
 
 #clients{
     text-align: center;
+
+    position: relative;
+    
+    background-image: url(../images/client_background.jpg);    
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+
+    padding: 11.8rem;
 }
 
+#clients h2{
+    color: white;
+    margin-bottom: 7.4rem;
+}    
+
 #clients .client{
-    width: 40%;
+    width: 70%;
     align-self: center;
+    color: white;
 }
+
+#clients .client .photo{
+    width: 19.2rem;
+    height: 19.2rem;
+    border-radius: 9.6rem;
+    border: 1.0rem solid rgba(255, 255, 255, 0.1);
+    
+    overflow: hidden;
+    margin: 0 auto;
+}    
+
+#clients .client .photo img{
+    height: 100%;
+    margin-left: -7%;
+}    
+
+#clients .client blockquote{
+    margin: 0;
+    margin-top: 7.4rem;
+    line-height: 2.4rem;
+}    
+
+#clients .client p{
+    color: white;
+    font-size: 1.8rem;
+    font-weight: 300;
+
+    margin-top: 4.0rem;
+    margin-bottom:0;
+}    
 
 /*--------------------------
     BLOG
